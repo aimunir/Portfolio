@@ -59,12 +59,7 @@ const Body = () => {
             <div className="card__text">
             In just a few short years, I built the brand to millions of social media followers and websites visitors.
             </div>
-
-
        </div>
-
-
-
       {/* card section end */}
 
 
