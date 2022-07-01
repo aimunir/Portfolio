@@ -1,0 +1,41 @@
+.portfolio__container {
+  margin-top: 170px;
+}
+
+.portfolio__header {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fcc028;
+}
+
+.portfolio__subheader {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000cf;
+}
+
+.portfolio__image__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    margin-left: 143px;
+    margin-right: 141px;
+}
+
+.portfolio__image__container img{
+    width: 534.51px;
+    height: 393.34px;
+    margin-bottom: 29px;
+}
+
+.explore__and__image__container {
+    margin-top: 114px;
+}

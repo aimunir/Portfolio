@@ -22,12 +22,22 @@
   margin-top: 80px;
 }
 
+.second__section{
+    margin-top: 90px;
+}
+
+.third__section{
+    margin-top: 50px;
+}
+
 .common__section {
   display: flex;
   gap: 72px;
   margin-left: 98px;
   margin-right: 92px;
 }
+
+
 
 .common__section .img_section img {
   height: 413px;
@@ -52,7 +62,8 @@ h4 {
   line-height: 35px;
   letter-spacing: 0em;
   color: #000000cf;
-
+ margin-top: 12px;
+ margin-bottom: 11px;
   text-align: left;
 }
 
@@ -81,4 +92,13 @@ h4 {
   );
 
   border: 1px solid #fcc028;
+  margin-top: 30px;
+}
+
+.shoe__text{
+    margin-top: 120px;
+}
+
+.clearMix__text{
+    margin-top: 70px;
 }
