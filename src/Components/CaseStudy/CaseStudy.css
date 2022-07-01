@@ -1,0 +1,84 @@
+.case__study__header {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #fcc028;
+}
+
+.my__case__study {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+}
+
+.first__section {
+  margin-top: 80px;
+}
+
+.common__section {
+  display: flex;
+  gap: 72px;
+  margin-left: 98px;
+  margin-right: 92px;
+}
+
+.common__section .img_section img {
+  height: 413px;
+  width: 543px;
+  border-radius: 0px;
+}
+
+h4 {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fcc028;
+}
+
+.landing__page__heading {
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  color: #000000cf;
+
+  text-align: left;
+}
+
+.landing__page__details {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000080;
+}
+
+.details__btn {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #fcc028;
+  margin-left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 178, 46, 0) -4.71%,
+    rgba(255, 255, 255, 0.33) 4.86%
+  );
+
+  border: 1px solid #fcc028;
+}
