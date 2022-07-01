@@ -62,6 +62,11 @@ const Body = () => {
        </div>
       {/* card section end */}
 
+      {/* About section start */}
+    
+      {/* About section end */}
+
+
 
 
     </div>

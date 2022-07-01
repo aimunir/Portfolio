@@ -1,0 +1,106 @@
+.about__container {
+  display: flex;
+  gap: 120px;
+  margin-top: 100px;
+}
+
+.about__container img {
+  margin-left: 256px;
+  width: 303px;
+  height: 700px;
+  
+}
+
+
+.text-container{
+    margin-top: 100px;
+    margin-right: 96px;
+    
+}
+
+#bit {
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fcc028;
+}
+
+.about__me {
+  font-family: Poppins;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000CF;
+
+}
+
+.about__details{
+    width: 600px;
+    height: 160px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+.exp{
+  display: flex;
+}
+.info .exp img{
+    margin: 0;
+    width: 48px;
+    height: 51px;
+}
+
+
+.projects{
+ display: inline-flex;
+}
+.projects img{
+    width: 48px;
+    height: 53px;
+    margin: 0;
+}
+
+.customers{
+  display: flex;
+}
+
+.customers img{
+  margin-left: 0px;
+   width: 48px;
+   height: 53px;
+}
+
+
+
+.about__bottom{
+  display: flex;
+  margin-top: 15px;
+}
+
+.about__bottom button{
+  margin-left: 0;
+}
+
+.about__bottom img{
+  margin-left: 0;
+  width: 19px;
+  height: 17px;
+  margin-top: 25px;
+}
+
+.about__bottom .download{
+  line-height: 51px;
+}
