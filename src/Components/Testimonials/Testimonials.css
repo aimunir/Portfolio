@@ -1,0 +1,113 @@
+.testimonials__container {
+  margin-top: 186px;
+}
+
+.testimonial__header {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #fcc028;
+}
+
+.testimonial__subheader {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.box__container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 96px;
+}
+.box__color {
+  background: #fff1ff;
+  height: 198px;
+  width: 636px;
+  margin-top: 45px;
+  border-radius: 0px;
+} 
+
+.cube {
+  background-image: url("../../assects/images/cude.png");
+  height: 170px;
+  width: 155px;
+  margin-top: 40px;
+}
+
+.box__shadow {
+  box-shadow: 0px 3px 19px 0px #13173d1a;
+  height: 209px;
+  width: 769px;
+  color: #ffffff;
+  border-radius: 19px;
+  margin-left: 467px;
+  margin-right: 166px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 3;
+}
+
+.box__shadow img {
+  position: absolute;
+  top: -20%;
+  left: 40%;
+}
+
+.quote__upper img {
+  position: absolute;
+  top: 19%;
+  left: 6%;
+}
+
+.quote__down img {
+  position: absolute;
+  top: 66%;
+  left: 87%;
+}
+
+.quote__text {
+  position: absolute;
+  color: #00000080;
+  padding: 0px 130px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  top: 39%;
+}
+
+.author__name h3 {
+  position: absolute;
+  color: black;
+  top: 70%;
+  left: 46%;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.position {
+  position: absolute;
+  color:#00000080;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 80%;
+  left: 37%;
+}
