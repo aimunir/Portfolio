@@ -1,7 +1,9 @@
 import React from "react";
 import About from "./Components/About/About";
 import Body from "./Components/Body/Body";
+import Bottom from "./Components/Bottom/Bottom";
 import CaseStudy from "./Components/CaseStudy/CaseStudy";
+import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Nav";
 import OurClient from "./Components/OurClient/OurClient";
@@ -19,6 +21,8 @@ const App = () => {
         <CaseStudy/>
         <Portfolio/>
         <OurClient/>
+        <Contact/>
+        <Bottom/>
         <Footer/>
       </div>
     </>

@@ -1,0 +1,92 @@
+.contact-container {
+  font-family: "Poppins";
+
+  background: linear-gradient(
+    180deg,
+    rgba(236, 178, 46, 0.0754) 0%,
+    rgba(255, 255, 255, 0.1144) 100%
+  );
+}
+
+.contact__container__content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 95px;
+  margin-right: 98px;
+  gap: 98px;
+}
+.contact__left__section {
+  margin-top: 169px;
+}
+
+.contact__upper{
+    margin-left: 147px;
+}
+
+.contact__text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 480px;
+  height: 46px;
+}
+
+.contact__header {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contact__info__container{
+    margin-top: 57px;
+}
+
+.info__info{
+    display: flex;
+    margin-bottom: 45px;
+    gap: 22px;
+}
+
+#address{
+    height: 72px;
+    width: 300px;
+}
+
+
+.form__right__section {
+  margin-top: 86px;
+  margin-right: 98px;
+}
+
+.form__right__section form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  
+
+}
+
+.form__padding{
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #FCC028;
+}
+
+.message__form__padding{
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    border-radius: 10px;
+    border: 1px solid #FCC028;
+}
+
