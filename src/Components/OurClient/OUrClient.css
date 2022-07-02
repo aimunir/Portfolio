@@ -1,0 +1,66 @@
+.client__container {
+  margin-top: 148px;
+}
+
+.client__header {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #fcc028;
+}
+
+.client__subheader {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000cf;
+}
+
+.client__image__container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 230px;
+  margin-top: 100px;
+  margin-right: 243px;
+}
+
+.slack img {
+  height: 70px;
+}
+
+.dropbox {
+  display: flex;
+  gap: 9px;
+  line-height: 95px;
+}
+
+.dropbox__logo img {
+  height: 35px;
+  width: 41px;
+}
+
+.dropbox__text img {
+  height: 30px;
+  width: 130px;
+}
+
+.google{
+  margin-top: -26px;
+}
+.google img{
+  width: 200px;
+}
+
+.tesla{
+  margin-top: 5px;
+}
+.tesla__logo img{
+height: 50px;
+width: 50px;
+}
