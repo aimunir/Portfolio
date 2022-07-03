@@ -90,3 +90,12 @@
     border: 1px solid #FCC028;
 }
 
+.form__padding::-webkit-input-placeholder { 
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.form__padding:-moz-placeholder { 
+  font-family: Poppins;
+  font-weight: 500;
+}

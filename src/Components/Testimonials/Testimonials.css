@@ -1,5 +1,6 @@
 .testimonials__container {
   margin-top: 186px;
+   /* position: relative;  */
 }
 
 .testimonial__header {
@@ -23,6 +24,9 @@
 }
 
 .box__container {
+  position: absolute;
+  top: 14%;
+  gap: 500px;
   display: flex;
   justify-content: space-between;
   margin-right: 96px;
@@ -33,7 +37,7 @@
   width: 636px;
   margin-top: 45px;
   border-radius: 0px;
-} 
+}
 
 .cube {
   background-image: url("../../assects/images/cude.png");
@@ -52,7 +56,10 @@
   margin-right: 166px;
   margin-top: 100px;
   position: relative;
-  z-index: 3;
+}
+
+.box__shadow ::after {
+  z-index: 1;
 }
 
 .box__shadow img {
@@ -101,7 +108,7 @@
 
 .position {
   position: absolute;
-  color:#00000080;
+  color: #00000080;
   font-family: Poppins;
   font-size: 13px;
   font-weight: 400;
@@ -110,4 +117,34 @@
   text-align: left;
   top: 80%;
   left: 37%;
+}
+
+.left__box {
+  height: 87px;
+  width: 206px;
+  border-radius: 10px;
+  background: #FCC028;
+position: absolute;
+right:89%;
+top: 53%;
+
+
+display: flex;
+
+}
+
+.left__arrow{
+  width: 41px;
+  height: 13px;
+  position: absolute;
+  top: 40%;
+}
+
+.right__arrow{
+  position: absolute;
+  width: 51px;
+  height: 13px;
+}
+
+@media only screen and (max-width: 600px) {
 }

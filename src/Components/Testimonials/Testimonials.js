@@ -3,6 +3,8 @@ import "./Testimonials.css";
 import Profile from "../../assects/images/testimonial__img.png";
 import Quote__upper from "../../assects/images/quote-1.png";
 import Quote__down from "../../assects/images/quote-2.png";
+import Arrow__left from "../../assects/images/arrow-icon-left.png";
+ import  Right__arrow from "../../assects/images/right-arrow.png";
 
 const Testimonials = () => {
   return (
@@ -32,15 +34,24 @@ const Testimonials = () => {
             <p className="position"> FOUNDER AND CEO OF KARMANI</p>
           </div>
 
+          <div className="left__box">
+            <div className="left__arrow"><img src={Arrow__left} alt="" /></div>
+            <div className="right__arrow">{Right__arrow}</div>
+          
+          </div>
+
           <div className="quote__down">
             <img src={Quote__down} alt="" />
           </div>
         </div>
-        <div className="box__container">
+
+      
+       
+      </div>
+      <div className="box__container">
           <div className="box__color"></div>
           <div className="cube"> </div>
         </div>
-      </div>
     </div>
   );
 };
