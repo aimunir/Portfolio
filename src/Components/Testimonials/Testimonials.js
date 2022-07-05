@@ -4,16 +4,30 @@ import Profile from "../../assects/images/testimonial__img.png";
 import Quote__upper from "../../assects/images/quote-1.png";
 import Quote__down from "../../assects/images/quote-2.png";
 import Arrow__left from "../../assects/images/arrow-icon-left.png";
- import  Right__arrow from "../../assects/images/right-arrow.png";
+ import  Right__arrow from "../../assects/images/arrow-icon-right.png";
+ import  Box__Color from "../../assects/images/box-color.png";
 
 const Testimonials = () => {
   return (
     <div className="testimonials__container">
       <div className="testimonial__header"> Testimonials </div>
       <div className="testimonial__subheader">What People Says</div>
+      
+       
 
-      <div className="testimonial__container__content">
+      <div className="testimonial__container__content"> 
+     
+       
+  <div className="box__flex">
+  <div className="box__color"></div>
+       <div className="cube"></div>
+  </div>
+      
         <div className="box__shadow">
+       
+
+
+
           <img src={Profile} alt="" />
 
           <div className="quote__upper">
@@ -36,7 +50,7 @@ const Testimonials = () => {
 
           <div className="left__box">
             <div className="left__arrow"><img src={Arrow__left} alt="" /></div>
-            <div className="right__arrow">{Right__arrow}</div>
+            <div className="right__arrow">  <img src={Right__arrow} alt="" /> </div>
           
           </div>
 
@@ -48,10 +62,7 @@ const Testimonials = () => {
       
        
       </div>
-      <div className="box__container">
-          <div className="box__color"></div>
-          <div className="cube"> </div>
-        </div>
+      
     </div>
   );
 };
